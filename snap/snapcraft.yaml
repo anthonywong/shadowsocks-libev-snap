@@ -56,7 +56,7 @@ parts:
       - libc-ares2
       - libev4
       - libmbedcrypto0
-      - libsodium18
+      - libsodium23
     override-build: |
       snapcraftctl build
       rm -rf $SNAPCRAFT_PART_INSTALL/usr/share/doc
